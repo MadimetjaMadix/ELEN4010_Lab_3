@@ -27,10 +27,6 @@ function updateElement (abutton, student) {
   }
 }
 
-function edit () {
-
-}
-
 button1.addEventListener('click', function () {
   var student = document.getElementById('student1')
   updateElement(button1, student)
